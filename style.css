@@ -1,0 +1,25 @@
+html,
+body,
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-size: 100%;
+background-color: aqua;
+}
+h2{
+    margin: 1rem;
+}
+.parent {
+    
+    font-size: 20px;
+}
+.px-size{
+    font-size: 20px;
+}
+.rem-size{
+    font-size: 20rem;
+}
+.em-size{
+    font-size: 1em;
+}
