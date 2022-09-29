@@ -1,38 +1,57 @@
 html,
 body,
-*{
-padding: 0;
-margin: 0;
-box-sizing: border-box;
-font-size: 62.5%;
-background-color: aqua;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+  background-color: aqua;
 }
-h2{
-    margin: 1rem;
+h2 {
+  margin: 10px;
 }
 .parent {
-    
-    font-size: 30px;
-    display: flex;
-    width: 80vw;
-    justify-content: center;
-    border: 10px solid red;
+  font-size: 20px;
+  display: flex;
+  width: 80vw;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
-.px-size{
-    font-size: 20px;
+.px-size {
+  font-size: 20px;
 }
-.rem-size{
-    font-size: 2rem;
+.rem-size {
+  font-size: 1rem;
 }
-.em-size{
-    font-size: 1em;
+.em-size {
+  font-size: 1em;
 }
-.Child1{
-border: 10px solid red;
+.Child1 {
+  border: 10px solid red;
+  width: 28%;
 }
-.Child2{
-border: 10px solid red;   
+.Child2 {
+  border: 10px solid red;
+  width: 28%;
 }
-.Child3{
-border: 10px solid red;
+.Child3 {
+  border: 10px solid red;
+  width: 28%;
+}
+.parent2 {
+  font-size: 20px;
+  display: flex;
+  width: 80vw;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.parent3 {
+  font-size: 20px;
+  display: flex;
+  width: 80vw;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
