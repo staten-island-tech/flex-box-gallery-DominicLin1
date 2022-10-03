@@ -5,12 +5,19 @@ body,
   margin: 0;
   box-sizing: border-box;
   font-size: 62.5%;
-  background-color: aqua;
+  background-color: darkblue;
+ 
   
+}
+h1{
+  font-size: 16px;
+  color: gold;
+  align-items: center;
 }
 h2 {
   margin: 100px;
-  padding: 50px 50px;
+  padding: 10px 10px;
+  background-color: blueviolet;
 }
 
 .px-size {
@@ -22,20 +29,46 @@ h2 {
 .em-size {
   font-size: 2em;
 }
+
+
 .Child1 {
-  border: 10px solid red;
-  width: 28%;
-  margin: 50px;
-}
+    width: 15%;
+ 
+    height: 30vh;
+    border-width: 10px;
+    border-style: solid;
+    border-color: red;
+    border-image: initial;
+    margin: 50px;
+    color: aqua;
+    box-shadow:  20px 10px 10px black;
+    background-image: url("https://3.files.edl.io/aeb1/20/12/02/154937-46cc468f-b7f4-4bb3-945e-3265bdb605d4.jpg")
+  }
 .Child2 {
-  border: 10px solid red;
-  width: 28%;
-  margin: 50px;
+    width: 15%;
+    
+    height: 30vh;
+    border-width: 10px;
+    border-style: solid;
+    border-color: red;
+    border-image: initial;
+    margin: 50px;
+    color: aqua;
+    box-shadow:  20px 10px 10px black;
+   background-image: url("https://3.files.edl.io/aeb1/20/12/02/154937-46cc468f-b7f4-4bb3-945e-3265bdb605d4.jpg");
 }
 .Child3 {
-  border: 10px solid red;
-  width: 28%;
-  margin: 50px;
+    width: 15%;
+   
+    height: 30vh;
+    border-width: 10px;
+    border-style: solid;
+    border-color: red;
+    border-image: initial;
+    margin: 50px;
+    color: aqua;
+    box-shadow:  20px 10px 10px black;
+    background-image: url("https://3.files.edl.io/aeb1/20/12/02/154937-46cc468f-b7f4-4bb3-945e-3265bdb605d4.jpg");
 }
 .parent {
   font-size: 16px;
