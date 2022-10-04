@@ -7,8 +7,13 @@ body,
   font-size: 62.5%;
   background-color: darkblue;
  
+  box-sizing: border-box;
+  font-size: 62.5%;
+  background-color: aqua;
   
 }
+
+
 h1{
   font-size: 16px;
   color: gold;
@@ -16,7 +21,7 @@ h1{
 }
 h2 {
   margin: 100px;
-  padding: 10px 10px;
+
   background-color: blueviolet;
 }
 
@@ -32,43 +37,43 @@ h2 {
 
 
 .Child1 {
-    width: 15%;
- 
-    height: 30vh;
+    /* width: 30%; */
+    margin: 50px auto;
+    /* height: 30vh; */
     border-width: 10px;
     border-style: solid;
     border-color: red;
     border-image: initial;
-    margin: 50px;
+    padding: 50px 50px;
     color: aqua;
     box-shadow:  20px 10px 10px black;
-    background-image: url("https://3.files.edl.io/aeb1/20/12/02/154937-46cc468f-b7f4-4bb3-945e-3265bdb605d4.jpg")
+   
   }
 .Child2 {
-    width: 15%;
-    
-    height: 30vh;
+    /* width: 30%; */
+    margin: 50px auto;
+    /* height: 30vh; */
     border-width: 10px;
     border-style: solid;
     border-color: red;
     border-image: initial;
-    margin: 50px;
+    padding: 50px 50px;
     color: aqua;
     box-shadow:  20px 10px 10px black;
-   background-image: url("https://3.files.edl.io/aeb1/20/12/02/154937-46cc468f-b7f4-4bb3-945e-3265bdb605d4.jpg");
+   
 }
 .Child3 {
-    width: 15%;
-   
-    height: 30vh;
+     /* width: 30%; */
+     margin: 50px auto;
+    /* height: 30vh;  */
     border-width: 10px;
     border-style: solid;
     border-color: red;
     border-image: initial;
-    margin: 50px;
+    padding: 50px 50px; color:  gold;
     color: aqua;
     box-shadow:  20px 10px 10px black;
-    background-image: url("https://3.files.edl.io/aeb1/20/12/02/154937-46cc468f-b7f4-4bb3-945e-3265bdb605d4.jpg");
+    
 }
 .parent {
   font-size: 16px;
@@ -77,6 +82,8 @@ h2 {
   justify-content: space-evenly;
   align-items: center;
   margin: 10px auto;
+  flex-direction: row;
+  padding: 10px;
 }
 .parent2 {
   font-size: 16px;
@@ -85,6 +92,8 @@ h2 {
   justify-content: space-evenly;
   align-items: center;
   margin: 10px auto;
+  flex-direction: row;
+  padding: 10px;
 }
 .parent3 {
   font-size: 16px;
@@ -93,4 +102,7 @@ h2 {
   justify-content: space-evenly;
   align-items: center;
   margin: 10px auto;
+  flex-direction: row;
+  padding: 10px;
+ 
 }
