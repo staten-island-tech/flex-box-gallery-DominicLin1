@@ -5,24 +5,26 @@ body,
   margin: 0;
   box-sizing: border-box;
   font-size: 62.5%;
-  background-color: darkblue;
- 
   box-sizing: border-box;
   font-size: 62.5%;
-  background-color: aqua;
+  background-color:black
   
 }
 
 
-h1{
-  font-size: 16px;
+.header{
+  font-size: 32px;
   color: gold;
-  align-items: center;
+  border-width: 10px;
+  border-style: solid;
+  border-color: white;
+   margin: 10px auto;
+  text-align: center;
+  width: 50px auto;
+  
 }
 h2 {
   margin: 100px;
-
-  background-color: blueviolet;
 }
 
 .px-size {
@@ -37,41 +39,40 @@ h2 {
 
 
 .Child1 {
-    /* width: 30%; */
     margin: 50px auto;
-    /* height: 30vh; */
+    font-style:italic ;
     border-width: 10px;
     border-style: solid;
     border-color: red;
     border-image: initial;
-    padding: 50px 50px;
-    color: aqua;
+    padding:20px 20px;
+    color: gold;
     box-shadow:  20px 10px 10px black;
    
   }
 .Child2 {
-    /* width: 30%; */
+    
     margin: 50px auto;
-    /* height: 30vh; */
+     font-style: italic;
     border-width: 10px;
     border-style: solid;
     border-color: red;
     border-image: initial;
-    padding: 50px 50px;
-    color: aqua;
+    padding: 20px 20px;
+    color: gold;
     box-shadow:  20px 10px 10px black;
    
 }
 .Child3 {
-     /* width: 30%; */
+     
      margin: 50px auto;
-    /* height: 30vh;  */
+     font-style: italic;
     border-width: 10px;
     border-style: solid;
     border-color: red;
     border-image: initial;
-    padding: 50px 50px; color:  gold;
-    color: aqua;
+    padding: 20px 20px;
+    color: gold;
     box-shadow:  20px 10px 10px black;
     
 }
