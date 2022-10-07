@@ -7,21 +7,19 @@ body,
   font-size: 62.5%;
   box-sizing: border-box;
   font-size: 62.5%;
-  background-color:black
-  
+  background-color: black;
 }
 
-
-.header{
+.header {
   font-size: 32px;
   color: gold;
   border-width: 10px;
   border-style: solid;
   border-color: white;
-   margin: 10px auto;
+  margin: 10px auto;
   text-align: center;
   width: 10px auto;
-  font-family: 'Dancing Script', cursive; 
+  font-family: "Dancing Script", cursive;
 }
 h2 {
   margin: 100px;
@@ -37,44 +35,38 @@ h2 {
   font-size: 2em;
 }
 
-
 .Child1 {
-    margin: 50px auto;
-    font-style:italic ;
-    border-width: 10px;
-    border-style: solid;
-    border-color: red;
-    border-image: initial;
-    padding:20px 20px;
-    color: gold;
-    box-shadow:  20px 10px 10px black;
-   
-  }
+  margin: 50px auto;
+  font-style: italic;
+  border-width: 10px;
+  border-style: solid;
+  border-color: red;
+  border-image: initial;
+  padding: 20px 20px;
+  color: gold;
+  box-shadow: 20px 10px 10px black;
+}
 .Child2 {
-    
-    margin: 50px auto;
-     font-style: italic;
-    border-width: 10px;
-    border-style: solid;
-    border-color: red;
-    border-image: initial;
-    padding: 20px 20px;
-    color: gold;
-    box-shadow:  20px 10px 10px black;
-   
+  margin: 50px auto;
+  font-style: italic;
+  border-width: 10px;
+  border-style: solid;
+  border-color: red;
+  border-image: initial;
+  padding: 20px 20px;
+  color: gold;
+  box-shadow: 20px 10px 10px black;
 }
 .Child3 {
-     
-     margin: 50px auto;
-     font-style: italic;
-    border-width: 10px;
-    border-style: solid;
-    border-color: red;
-    border-image: initial;
-    padding: 20px 20px;
-    color: gold;
-    box-shadow:  20px 10px 10px black;
-    
+  margin: 50px auto;
+  font-style: italic;
+  border-width: 10px;
+  border-style: solid;
+  border-color: red;
+  border-image: initial;
+  padding: 20px 20px;
+  color: gold;
+  box-shadow: 20px 10px 10px black;
 }
 .parent {
   font-size: 16px;
@@ -105,22 +97,29 @@ h2 {
   margin: 10px auto;
   flex-direction: row;
   padding: 10px;
- 
 }
-@media (max-width: 500px) {
-  .parent, .parent2, .parent3 {
-    flex-direction: column;
-  }
 
-}
 @media (orientation: portrait) {
-  .parent, .parent2, .parent3 {
+  .parent,
+  .parent2,
+  .parent3 {
     flex-direction: column;
+    width: 100vw;
   }
-
 }
 @media (max-width: 900px) {
-  .parent, .parent2, .parent3 {
+  .parent,
+  .parent2,
+  .parent3 {
     flex-direction: column;
+    width: 100vw;
   }
+}
+@media (max-width: 600px) {
+  .parent,
+  .parent2,
+  .parent3 {
+    flex-direction: column; 
+  width: 100vw; }
+   
 }
