@@ -119,3 +119,8 @@ h2 {
   }
 
 }
+@media (max-width: 900px) {
+  .parent, .parent2, .parent3 {
+    flex-direction: column;
+  }
+}
