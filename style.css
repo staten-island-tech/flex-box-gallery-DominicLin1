@@ -67,6 +67,7 @@ h2 {
   padding: 20px 20px;
   color: gold;
   box-shadow: 20px 10px 10px black;
+
 }
 .parent {
   font-size: 16px;
@@ -81,17 +82,14 @@ h2 {
 
 
 @media (orientation: portrait) {
-  .parent,
-  .parent2,
-  .parent3 {
+  .parent
+ {
     flex-direction: column;
     width: 100vw;
   }
 }
 @media (max-width: 900px) {
-  .parent,
-  .parent2,
-  .parent3 {
+  .parent {
     flex-direction: column;
     width: 100vw;
   }
@@ -108,3 +106,6 @@ h2 {
   transform: scale(1.5);
   outline: 1rem solid gold;
   }
+.Animation {
+  animation: 3s linear 1s infinite running slidein;
+}
