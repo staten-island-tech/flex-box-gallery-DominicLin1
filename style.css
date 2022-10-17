@@ -15,11 +15,12 @@ body,
   color: gold;
  text-align: center;
   font-family: "Dancing Script", cursive;
-  border-width: 10px;
-  border-style: solid;
-  border-color: white;
+  
   margin: 10px auto;
   width: 10px auto;
+  position: absolute;
+  left: 600px;
+  top: -10px;
 }
 h1 {
   display: block;
@@ -156,18 +157,19 @@ transform: scale(0.5,1.5);
   
   }
 
-.animation {
-  animation:test 4s infinite;
-  height: 1rem;
-  width: 1rem; 
 
-}
-  @keyframes test {
-     
-      from {background-color red;
-      font-size: 64px;}
-      to {background-color: yellow;
-      font-size: 0px;}
-    }
+  .header {
+    animation:test 4s infinite;
+    height: 2rem;
+    width: 2rem; 
   
+  }
+    @keyframes test {
+       
+        from {
+        font-size: 100px;
+        color: black;}
+        to { color:  gold;
+        font-size: 10px;}
+      }
     
