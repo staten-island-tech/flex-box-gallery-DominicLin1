@@ -91,15 +91,12 @@ h2 {
 }
 
 
-@media (orientation: portrait) {
-  .parent
- {
-  text-align: center;
-    flex-direction: column;
-    width: 100vw;
-  }
-}
+
+
 @media (max-width: 900px) {
+  .header{
+    position: absolute; 
+    left: 400px;}
   .parent {
     text-align: center;
     flex-direction: column;
@@ -107,9 +104,13 @@ h2 {
   }
 }
 @media (max-width: 600px) {
+  .header{
+    position: absolute; 
+    left: 250px;}
+  
   .parent{
-    flex-direction: column
-    text-allign center; 
+    flex-direction: column;
+    text-align: center;
   width: 100vw; }
    
 }
