@@ -7,7 +7,7 @@ body,
   font-size: 62.5%;
   box-sizing: border-box;
   font-size: 62.5%;
-  background-color: white
+  background-color: violet
 }
 
 .header {
@@ -19,7 +19,7 @@ body,
   margin: 10px auto;
   width: 10px auto;
   position: absolute;
-  left: 600px;
+  left: 900px;
   top: -10px;
 }
 h1 {
@@ -121,7 +121,7 @@ h2 {
  outline: 1rem solid black
 }
 .Child3-3:hover{
-  border-width: 5px;
+  border-width: 10px;
   border-style:solid;
   border-color: green;
   border-image: initial;
