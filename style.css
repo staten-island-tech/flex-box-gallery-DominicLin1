@@ -94,21 +94,22 @@ h2 {
 @media (orientation: portrait) {
   .parent
  {
+  text-align: center;
     flex-direction: column;
     width: 100vw;
   }
 }
 @media (max-width: 900px) {
   .parent {
+    text-align: center;
     flex-direction: column;
     width: 100vw;
   }
 }
 @media (max-width: 600px) {
-  .parent,
-  .parent2,
-  .parent3 {
-    flex-direction: column; 
+  .parent{
+    flex-direction: column
+    text-allign center; 
   width: 100vw; }
    
 }
