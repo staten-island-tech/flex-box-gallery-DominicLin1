@@ -99,8 +99,13 @@ h2 {
     left: 400px;}
   .parent {
     text-align: center;
-    flex-direction: column;
-    width: 100vw;
+    flex-direction: row;
+  }
+  .Child1, .Child2, .Child3, .Child2-2, .Child3-3{
+    width: 30vw;
+  }
+  img{
+    width: 25vw;
   }
 }
 @media (max-width: 600px) {
