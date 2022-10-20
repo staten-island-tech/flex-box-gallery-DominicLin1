@@ -180,4 +180,49 @@ transform: scale(0.5,1.5);
         to { color:  gold;
         font-size: 10px;}
       }
-    
+      @media (max-width: 1920px) {
+        .Child1 {
+          margin: 50px auto;
+          font-style: italic;
+          border-width: 10px;
+          border-style: solid;
+          border-color: red;
+          border-image: initial;
+          padding: 20px 20px;
+          color: gold;
+          box-shadow: 20px 10px 10px black;
+        }
+        .Child2 {
+          margin: 50px auto;
+          font-style: italic;
+          border-width: 10px;
+          border-style: solid;
+          border-color: red;
+          border-image: initial;
+          padding: 20px 20px;
+          color: gold;
+          box-shadow: 20px 10px 10px black;
+        }
+        .Child3 {
+          margin: 50px auto;
+          font-style: italic;
+          border-width: 10px;
+          border-style: solid;
+          border-color: red;
+          border-image: initial;
+          padding: 20px 20px;
+          color: gold;
+          box-shadow: 20px 10px 10px black;
+        
+        }
+        .parent {
+          font-size: 16px;
+          display: flex;
+          width: 100vw;
+          justify-content: space-evenly;
+          align-items: center;
+          margin: 10px auto;
+          flex-direction: row;
+          padding: 10px;
+        }
+        }
