@@ -108,24 +108,32 @@ h2 {
     width: 25vw;
   }
 }
-@media (max-width: 600px) {
+@media (orientation: portrait) {
+  .parent
+ {
+  text-align: center;
+    flex-direction: column;
+    width: 100vw;
+  }
+}
+ /* @media (max-width: 600px) {
   .header{
     position: absolute; 
     left: 250px;}
   
- /*  .parent{
+   .parent{
     
-      flex-direction: column
-      text-allign center; 
-    width: 100vw; } */
+      flex-direction: column;
+      
+    width: 100vw; } 
    .img{
     width: 20vw;
   }
   .Child1, .Child2, .Child3, .Child2-2, .Child3-3{
-    width: 30vw;
-    flex-direction: row
+    width: 35vw;
+    flex-direction:column;
   }
-}
+} */
 .Hover1:hover{
   transform: scale(1.5);
   outline: 1rem solid gold;
