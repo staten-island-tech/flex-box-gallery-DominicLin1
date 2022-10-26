@@ -113,11 +113,15 @@ h2 {
   .header{ 
     position: absolute; 
     left: 250px;}
-  
+  h2{
+    text-align: center;
+    margin: auto;
+  }
    .parent{
     display: flex;
       flex-direction: column;
       margin: 0px auto;
+      text-align: center;
     width: 100vw; } 
    .img{
     width: 20vw;
@@ -125,6 +129,7 @@ h2 {
   .Child1, .Child2, .Child3, .Child2-2, .Child3-3{
     width: 35vw;
     margin: 20px auto;
+    text-align: center;
   }
 }
 .Hover1:hover{
