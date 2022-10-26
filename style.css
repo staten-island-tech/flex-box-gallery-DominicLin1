@@ -108,32 +108,25 @@ h2 {
     width: 25vw;
   }
 }
-@media (orientation: portrait) {
-  .parent
- {
-  text-align: center;
-    flex-direction: column;
-    width: 100vw;
-  }
-}
- /* @media (max-width: 600px) {
-  .header{
+
+ @media screen and (max-width: 600px) {
+  .header{ 
     position: absolute; 
     left: 250px;}
   
    .parent{
-    
+    display: flex;
       flex-direction: column;
-      
+      margin: 0px auto;
     width: 100vw; } 
    .img{
     width: 20vw;
   }
   .Child1, .Child2, .Child3, .Child2-2, .Child3-3{
     width: 35vw;
-    flex-direction:column;
+    margin: 20px auto;
   }
-} */
+}
 .Hover1:hover{
   transform: scale(1.5);
   outline: 1rem solid gold;
@@ -195,7 +188,7 @@ transform: scale(0.5,1.5);
         to { color:  gold;
         font-size: 10px;}
       }
-      @media (max-width: 1920px) {
+      /*@media (max-width: 1920px) {
         .Child1 {
           margin: 50px auto;
           font-style: italic;
