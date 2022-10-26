@@ -113,11 +113,18 @@ h2 {
     position: absolute; 
     left: 250px;}
   
-  .parent{
-    flex-direction: column;
-    text-align: center;
-  width: 100vw; }
-   
+ /*  .parent{
+    
+      flex-direction: column
+      text-allign center; 
+    width: 100vw; } */
+   .img{
+    width: 20vw;
+  }
+  .Child1, .Child2, .Child3, .Child2-2, .Child3-3{
+    width: 30vw;
+    flex-direction: row
+  }
 }
 .Hover1:hover{
   transform: scale(1.5);
